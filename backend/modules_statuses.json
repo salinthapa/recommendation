@@ -1,0 +1,7 @@
+{
+    "Core": true,
+    "User": true,
+    "Role": true,
+    "Gym": true,
+    "Appointment": true
+}

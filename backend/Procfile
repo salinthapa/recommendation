@@ -1,0 +1,19 @@
+web: vendor/bin/heroku-php-apache2 public/
+
+php artisan module:make-migration Role
+
+php artisan module:make-migration User
+
+php artisan module:make-migration Pharmacy
+
+php artisan module:make-migration BloodBank
+
+php artisan module:make-migration Hospital
+
+php artisan module:make-migration Reminder
+
+php artisan module:make-migration Ambulance
+
+php artisan module:migrate
+
+php artisan module:seed
